@@ -1,5 +1,6 @@
 # READ THIS FIRST!!!
 # Most of these projects are NOT mine! I am not claiming to own these projects, I just turned them into HTML files through TurboWarp :/
+<h3>You can now play online using the Github Pages URL!</h3>
 </p>This repository contains a collection of great Scratch projects that I turned into HTML files. If you'd like, you can go ahead and download the full package right now, but I suggest that you read through the descriptions here to choose which ones to download.</p>
 <h4>Download individual files by clicking them in the list of files and selecting the download button in the top-right of the code window, or get full packages through the Releases tab.</h4>
 <h1>File Descriptions</h1>
