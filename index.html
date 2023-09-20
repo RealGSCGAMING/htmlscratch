@@ -1,4 +1,71 @@
-<html>
-  <head></head>
-  <body><p>type the name of the project you want to go to in the URL after adding a slash to the end to go to it (i think it'll work idk)</p></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Scratch Projects</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #FFA500, #FF6347, #FFA500, #FF6347);
+            background-size: 400% 400%;
+            animation: gradient 15s infinite alternate;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0%;
+            }
+            100% {
+                background-position: 100%;
+            }
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button {
+            background-color: #FFA500;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Scratch Projects</h1>
+        <div class="button-container">
+            <a href="#" class="button">Button 1</a>
+            <a href="#" class="button">Button 2</a>
+            <a href="#" class="button">Button 3</a>
+            <a href="#" class="button">Button 4</a>
+            <a href="#" class="button">Button 5</a>
+            <a href="#" class="button">Button 6</a>
+        </div>
+    </div>
+</body>
 </html>
